@@ -12,7 +12,7 @@ describe('middleware/authenticate', function() {
     function Strategy() {
     }
     Strategy.prototype.authenticate = function(req) {
-      var user = { id: '1', username: 'jaredhanson' };
+      var user = { id: '1', username: 'jscott' };
       this.success(user);
     };
     
@@ -45,7 +45,7 @@ describe('middleware/authenticate', function() {
     it('should set user', function() {
       expect(request.user).to.be.an('object');
       expect(request.user.id).to.equal('1');
-      expect(request.user.username).to.equal('jaredhanson');
+      expect(request.user.username).to.equal('jscott');
     });
     
     it('should set authInfo', function() {
@@ -58,7 +58,7 @@ describe('middleware/authenticate', function() {
     function Strategy() {
     }
     Strategy.prototype.authenticate = function(req) {
-      var user = { id: '1', username: 'jaredhanson' };
+      var user = { id: '1', username: 'jscott' };
       this.success(user);
     };
     
@@ -95,7 +95,7 @@ describe('middleware/authenticate', function() {
     it('should set account', function() {
       expect(request.account).to.be.an('object');
       expect(request.account.id).to.equal('1');
-      expect(request.account.username).to.equal('jaredhanson');
+      expect(request.account.username).to.equal('jscott');
     });
     
     it('should set authInfo to empty object', function() {
@@ -107,7 +107,7 @@ describe('middleware/authenticate', function() {
     function Strategy() {
     }
     Strategy.prototype.authenticate = function(req) {
-      var user = { id: '1', username: 'jaredhanson' };
+      var user = { id: '1', username: 'jscott' };
       this.success(user);
     };
     
@@ -144,7 +144,7 @@ describe('middleware/authenticate', function() {
     it('should set account', function() {
       expect(request.account).to.be.an('object');
       expect(request.account.id).to.equal('1');
-      expect(request.account.username).to.equal('jaredhanson');
+      expect(request.account.username).to.equal('jscott');
     });
     
     it('should not set authInfo', function() {
@@ -156,9 +156,9 @@ describe('middleware/authenticate', function() {
     function Strategy() {
     }
     Strategy.prototype.authenticate = function(req, options) {
-      var user = { id: '1', username: 'jaredhanson' };
+      var user = { id: '1', username: 'jscott' };
       if (options.scope == 'email') {
-        user.email = 'jaredhanson@example.com';
+        user.email = 'jscott@example.com';
       }
       this.success(user);
     };
@@ -193,8 +193,8 @@ describe('middleware/authenticate', function() {
     it('should set user', function() {
       expect(request.user).to.be.an('object');
       expect(request.user.id).to.equal('1');
-      expect(request.user.username).to.equal('jaredhanson');
-      expect(request.user.email).to.equal('jaredhanson@example.com');
+      expect(request.user.username).to.equal('jscott');
+      expect(request.user.email).to.equal('jscott@example.com');
     });
     
     it('should set authInfo', function() {
@@ -207,7 +207,7 @@ describe('middleware/authenticate', function() {
     function Strategy() {
     }
     Strategy.prototype.authenticate = function(req, options) {
-      var user = { id: '1', username: 'jaredhanson' };
+      var user = { id: '1', username: 'jscott' };
       this.success(user);
     };
     
@@ -236,7 +236,7 @@ describe('middleware/authenticate', function() {
     it('should set user', function() {
       expect(request.user).to.be.an('object');
       expect(request.user.id).to.equal('1');
-      expect(request.user.username).to.equal('jaredhanson');
+      expect(request.user.username).to.equal('jscott');
     });
     
     it('should set authInfo', function() {
@@ -254,7 +254,7 @@ describe('middleware/authenticate', function() {
     function Strategy() {
     }
     Strategy.prototype.authenticate = function(req, options) {
-      var user = { id: '1', username: 'jaredhanson' };
+      var user = { id: '1', username: 'jscott' };
       this.success(user);
     };
     
@@ -284,7 +284,7 @@ describe('middleware/authenticate', function() {
     it('should set user', function() {
       expect(request.user).to.be.an('object');
       expect(request.user.id).to.equal('1');
-      expect(request.user.username).to.equal('jaredhanson');
+      expect(request.user.username).to.equal('jscott');
     });
     
     it('should set authInfo', function() {
@@ -306,7 +306,7 @@ describe('middleware/authenticate', function() {
     function Strategy() {
     }
     Strategy.prototype.authenticate = function(req, options) {
-      var user = { id: '1', username: 'jaredhanson' };
+      var user = { id: '1', username: 'jscott' };
       this.success(user);
     };
     
@@ -335,7 +335,7 @@ describe('middleware/authenticate', function() {
     it('should set user', function() {
       expect(request.user).to.be.an('object');
       expect(request.user.id).to.equal('1');
-      expect(request.user.username).to.equal('jaredhanson');
+      expect(request.user.username).to.equal('jscott');
     });
     
     it('should set authInfo', function() {
@@ -353,7 +353,7 @@ describe('middleware/authenticate', function() {
     function Strategy() {
     }
     Strategy.prototype.authenticate = function(req) {
-      var user = { id: '1', username: 'jaredhanson' };
+      var user = { id: '1', username: 'jscott' };
       this.success(user);
     };
     

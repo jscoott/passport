@@ -12,7 +12,7 @@ describe('middleware/authenticate', function() {
     function Strategy() {
     }
     Strategy.prototype.authenticate = function(req) {
-      var user = { id: '1', username: 'jaredhanson' };
+      var user = { id: '1', username: 'jscott' };
       this.success(user, { message: 'Hello' });
     };
     
@@ -43,7 +43,7 @@ describe('middleware/authenticate', function() {
     it('should pass user to callback', function() {
       expect(user).to.be.an('object');
       expect(user.id).to.equal('1');
-      expect(user.username).to.equal('jaredhanson');
+      expect(user.username).to.equal('jscott');
     });
     
     it('should pass info to callback', function() {
@@ -64,7 +64,7 @@ describe('middleware/authenticate', function() {
     function Strategy() {
     }
     Strategy.prototype.authenticate = function(req) {
-      var user = { id: '1', username: 'jaredhanson' };
+      var user = { id: '1', username: 'jscott' };
       this.success(user, { message: 'Hello' });
     };
     
@@ -95,7 +95,7 @@ describe('middleware/authenticate', function() {
     it('should pass user to callback', function() {
       expect(user).to.be.an('object');
       expect(user.id).to.equal('1');
-      expect(user.username).to.equal('jaredhanson');
+      expect(user.username).to.equal('jscott');
     });
     
     it('should pass info to callback', function() {

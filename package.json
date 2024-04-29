@@ -10,21 +10,21 @@
     "authentication"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "https://www.jaredhanson.me/"
+    "name": "James Scott",
+    "email": "jscott@gmail.com",
+    "url": "https://www.jscott.me/"
   },
   "homepage": "https://www.passportjs.org/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport.git"
+    "url": "git://github.com/jscott/passport.git"
   },
   "bugs": {
-    "url": "https://github.com/jaredhanson/passport/issues"
+    "url": "https://github.com/jscott/passport/issues"
   },
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/jaredhanson"
+    "url": "https://github.com/sponsors/jscott"
   },
   "license": "MIT",
   "licenses": [

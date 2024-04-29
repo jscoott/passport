@@ -17,29 +17,29 @@ hooks for controlling what occurs when authentication succeeds or fails.
 <p align="center">
   <sup>Sponsors</sup>
   <br>
-  <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=passport_js&utm_source=github"><img src="https://raw.githubusercontent.com/jaredhanson/passport/master/sponsors/workos.png"></a><br/>
+  <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=passport_js&utm_source=github"><img src="https://raw.githubusercontent.com/jscott/passport/master/sponsors/workos.png"></a><br/>
   <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=passport_js&utm_source=github"><b>Your app, enterprise-ready.</b><br/>Start selling to enterprise customers with just a few lines of code. Add Single Sign-On (and more) in minutes instead of months.</a>
   <br>
   <br>
   <a href="https://www.descope.com/?utm_source=PassportJS&utm_medium=referral&utm_campaign=oss-sponsorship">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jaredhanson/passport/master/sponsors/descope-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jaredhanson/passport/master/sponsors/descope.svg">
-      <img src="https://raw.githubusercontent.com/jaredhanson/passport/master/sponsors/descope.svg" width="275">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jscott/passport/master/sponsors/descope-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jscott/passport/master/sponsors/descope.svg">
+      <img src="https://raw.githubusercontent.com/jscott/passport/master/sponsors/descope.svg" width="275">
     </picture>
   </a><br/>
   <a href="https://www.descope.com/?utm_source=PassportJS&utm_medium=referral&utm_campaign=oss-sponsorship"><b>Drag and drop your auth</b><br/>Add authentication and user management to your consumer and business apps with a few lines of code.</a>
   <br>
   <br>
-  <a href="https://fusionauth.io/?utm_source=passportjs&utm_medium=referral&utm_campaign=sponsorship"><img src="https://raw.githubusercontent.com/jaredhanson/passport/master/sponsors/fusionauth.png" width="275"></a><br/>
+  <a href="https://fusionauth.io/?utm_source=passportjs&utm_medium=referral&utm_campaign=sponsorship"><img src="https://raw.githubusercontent.com/jscott/passport/master/sponsors/fusionauth.png" width="275"></a><br/>
   <a href="https://fusionauth.io/?utm_source=passportjs&utm_medium=referral&utm_campaign=sponsorship"><b>Auth. Built for Devs, by Devs</b><br/>Add login, registration, SSO, MFA, and a bazillion other features to your app in minutes. Integrates with any codebase and installs on any server, anywhere in the world.</a>
   <br>
   <br>
   <a href="https://stytch.com?utm_source=oss-sponsorship&utm_medium=paid_sponsorship&utm_campaign=passportjs">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jaredhanson/passport/master/sponsors/stytch-dark.png">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jaredhanson/passport/master/sponsors/stytch.png">
-      <img src="https://raw.githubusercontent.com/jaredhanson/passport/master/sponsors/stytch.png" width="275">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jscott/passport/master/sponsors/stytch-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jscott/passport/master/sponsors/stytch.png">
+      <img src="https://raw.githubusercontent.com/jscott/passport/master/sponsors/stytch.png" width="275">
     </picture>
   </a><br/>
   <a href="https://stytch.com?utm_source=oss-sponsorship&utm_medium=paid_sponsorship&utm_campaign=passportjs"><b>API-first AuthN, AuthZ, and Fraud Prevention</b><br/>The most powerful identity platform built for developers. Easily build and secure a modern auth flow with user & org management, multi-tenant SSO, MFA, RBAC, device fingerprinting, and more.</a>
@@ -48,9 +48,9 @@ hooks for controlling what occurs when authentication succeeds or fails.
 ---
 
 Status:
-[![Build](https://travis-ci.org/jaredhanson/passport.svg?branch=master)](https://travis-ci.org/jaredhanson/passport)
-[![Coverage](https://coveralls.io/repos/jaredhanson/passport/badge.svg?branch=master)](https://coveralls.io/r/jaredhanson/passport)
-[![Dependencies](https://david-dm.org/jaredhanson/passport.svg)](https://david-dm.org/jaredhanson/passport)
+[![Build](https://travis-ci.org/jscott/passport.svg?branch=master)](https://travis-ci.org/jscott/passport)
+[![Coverage](https://coveralls.io/repos/jscott/passport/badge.svg?branch=master)](https://coveralls.io/r/jscott/passport)
+[![Dependencies](https://david-dm.org/jscott/passport.svg)](https://david-dm.org/jscott/passport)
 
 
 ## Install
@@ -154,19 +154,19 @@ The following table lists commonly used strategies:
 
 |Strategy                                                       | Protocol                 |Developer                                       |
 |---------------------------------------------------------------|--------------------------|------------------------------------------------|
-|[Local](https://github.com/jaredhanson/passport-local)         | HTML form                |[Jared Hanson](https://github.com/jaredhanson)  |
-|[OpenID](https://github.com/jaredhanson/passport-openid)       | OpenID                   |[Jared Hanson](https://github.com/jaredhanson)  |
-|[BrowserID](https://github.com/jaredhanson/passport-browserid) | BrowserID                |[Jared Hanson](https://github.com/jaredhanson)  |
-|[Facebook](https://github.com/jaredhanson/passport-facebook)   | OAuth 2.0                |[Jared Hanson](https://github.com/jaredhanson)  |
-|[Google](https://github.com/jaredhanson/passport-google)       | OpenID                   |[Jared Hanson](https://github.com/jaredhanson)  |
-|[Google](https://github.com/jaredhanson/passport-google-oauth) | OAuth / OAuth 2.0        |[Jared Hanson](https://github.com/jaredhanson)  |
-|[Twitter](https://github.com/jaredhanson/passport-twitter)     | OAuth                    |[Jared Hanson](https://github.com/jaredhanson)  |
+|[Local](https://github.com/jscott/passport-local)         | HTML form                |[James Scott](https://github.com/jscott)  |
+|[OpenID](https://github.com/jscott/passport-openid)       | OpenID                   |[James Scott](https://github.com/jscott)  |
+|[BrowserID](https://github.com/jscott/passport-browserid) | BrowserID                |[James Scott](https://github.com/jscott)  |
+|[Facebook](https://github.com/jscott/passport-facebook)   | OAuth 2.0                |[James Scott](https://github.com/jscott)  |
+|[Google](https://github.com/jscott/passport-google)       | OpenID                   |[James Scott](https://github.com/jscott)  |
+|[Google](https://github.com/jscott/passport-google-oauth) | OAuth / OAuth 2.0        |[James Scott](https://github.com/jscott)  |
+|[Twitter](https://github.com/jscott/passport-twitter)     | OAuth                    |[James Scott](https://github.com/jscott)  |
 |[Azure Active Directory](https://github.com/AzureAD/passport-azure-ad)     | OAuth 2.0 / OpenID / SAML  |[Azure](https://github.com/azuread)  |
 
 ## Examples
 
 - For a complete, working example, refer to the [example](https://github.com/passport/express-4.x-local-example)
-that uses [passport-local](https://github.com/jaredhanson/passport-local).
+that uses [passport-local](https://github.com/jscott/passport-local).
 - **Local Strategy**: Refer to the following tutorials for setting up user authentication via LocalStrategy (`passport-local`):
     - Mongo
       - Express v3x - [Tutorial](http://mherman.org/blog/2016/09/25/node-passport-and-postgres/#.V-govpMrJE5) / [working example](https://github.com/mjhea0/passport-local-knex)
@@ -179,17 +179,17 @@ that uses [passport-local](https://github.com/jaredhanson/passport-local).
 
 ## Related Modules
 
-- [Locomotive](https://github.com/jaredhanson/locomotive) — Powerful MVC web framework
-- [OAuthorize](https://github.com/jaredhanson/oauthorize) — OAuth service provider toolkit
-- [OAuth2orize](https://github.com/jaredhanson/oauth2orize) — OAuth 2.0 authorization server toolkit
-- [connect-ensure-login](https://github.com/jaredhanson/connect-ensure-login)  — middleware to ensure login sessions
+- [Locomotive](https://github.com/jscott/locomotive) — Powerful MVC web framework
+- [OAuthorize](https://github.com/jscott/oauthorize) — OAuth service provider toolkit
+- [OAuth2orize](https://github.com/jscott/oauth2orize) — OAuth 2.0 authorization server toolkit
+- [connect-ensure-login](https://github.com/jscott/connect-ensure-login)  — middleware to ensure login sessions
 
-The [modules](https://github.com/jaredhanson/passport/wiki/Modules) page on the
-[wiki](https://github.com/jaredhanson/passport/wiki) lists other useful modules
+The [modules](https://github.com/jscott/passport/wiki/Modules) page on the
+[wiki](https://github.com/jscott/passport/wiki) lists other useful modules
 that build upon or integrate with Passport.
 
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2011-2021 Jared Hanson <[https://www.jaredhanson.me/](https://www.jaredhanson.me/)>
+Copyright (c) 2011-2021 James Scott <[https://www.jscott.me/](https://www.jscott.me/)>
